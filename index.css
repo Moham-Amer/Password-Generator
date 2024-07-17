@@ -1,0 +1,56 @@
+
+html{
+  background-color: #1F2937;
+  font-family:Inter;
+  color: white;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+#generatePass{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-self: center;
+}
+#greentitle{
+  color: #4ADF86
+}
+#generatePass{
+  background-color: #10B981;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 2px;
+  display: block;
+  margin: auto;
+}
+#password1,#password2{
+  background-color: #273549;
+  color:#55F991 ; 
+  border: 2px;
+  border-radius: 2px;
+  text-align: center;
+  width: 50px;
+  flex: 1 2;
+}
+#password1:hover,#password2:hover{
+  cursor: pointer; 
+  background-color: #465f83;
+}
+  h1{
+  font-weight: normal;
+  font-style:normal;
+  font-size: 20px;
+  font-family:Inter;
+}
+  #titlePass{
+  font-size: 40px;
+  font-family: Karla,sans-serif;
+  font-weight:bold;
+  font-display: swap;
+}
+#copied1,#copied2{
+  visibility: hidden;
+}

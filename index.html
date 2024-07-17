@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+     <!-- to insert Inter font -->
+    <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'> 
+    <!-- to insert Karla font -->
+    <title>Password generator</title>
+ </head>
+ <body>
+    <p id="titlePass"> Generate a <br> <span id="greentitle">
+        random password </span></p>
+    <h1>Never use an insecure password again.</h1>
+    <div id="generatePass">
+     <input type="checkbox" id="togglenum">
+     <label for="togglenum">Toggle numbers</label>
+     <input type="checkbox" id="togglesym">
+     <label for="togglesym">Toggle symbols</label>
+    </div>
+    <br>
+    <button id="generatePass" onclick="generateRandomPasswords()">Generate passwords</button>
+    <br>    
+    <div class="container">
+     <input type="number" name="" id="passLen1" min="8" value="8">
+     <input type="number" name="" id="passLen2" min="8" value="8">
+    </div>
+    <div class="container">
+     <p id="copied1"></p>
+     <p id="copied2"></p>
+    </div>   
+    <div class="container">
+     <p id="password1" onclick="copyonclick(1)" ></p>
+     <p id="password2" onclick="copyonclick(2)"></p>
+    </div> 
+    <script src="index.js"></script>
+ </body>
+</html>
